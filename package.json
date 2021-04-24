@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/KuroyukiDev/Kurochan_Farming_Sim_MZ#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express.js": "^1.0.0",
     "live-server": "^1.2.1"
   }
