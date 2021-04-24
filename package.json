@@ -1,0 +1,26 @@
+{
+  "name": "kurochan_farming_sim_mz",
+  "version": "1.0.0",
+  "description": "Kurochan's Game Jam Submission and DevLogs for SirLegna's Game Jam. Game Submission Name: \"Farming Sim MZ\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "live-server ./"
+  },
+  "engines": {
+    "node": "12.20.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuroyukiDev/Kurochan_Farming_Sim_MZ.git"
+  },
+  "author": "Kurochan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuroyukiDev/Kurochan_Farming_Sim_MZ/issues"
+  },
+  "homepage": "https://github.com/KuroyukiDev/Kurochan_Farming_Sim_MZ#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "live-server": "^1.2.1"
+  }
+}
