@@ -12,8 +12,13 @@ app.get('/devlogs', (req, res) => {
   res.sendFile('./devlog_main.html', { root: __dirname })
 })
 
-app.get('*', (req, res) => {
+
+app.get('/', (req, res) => {
   res.sendFile('./index.html', { root: __dirname })
+})
+
+app.get('*', (req, res) => {
+  res.redirect('/')
 })
 
 app.listen(port, () => {
