@@ -4,7 +4,7 @@
   "description": "Kurochan's Game Jam Submission and DevLogs for SirLegna's Game Jam. Game Submission Name: \"Farming Sim MZ\"",
   "main": "server.js",
   "scripts": {
-    "build": "live-server ./"
+    "start": "node server.js"
   },
   "engines": {
     "node": "12.20.1"
